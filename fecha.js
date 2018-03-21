@@ -70,6 +70,7 @@ class Fecha {
 
 
 	validarFecha(){
+		var wea = new Array("continuara")
 		if((this.mes>0 || this.mes < 13)){
 			if(anioBisiesto(this.anio)){
 
@@ -81,6 +82,7 @@ class Fecha {
 	adquirirFecha(){
 		return this.dia + "/" + this.mes +"/" + this.anio + "   y: " + anioBisiestoImprimir(this.anio);
 	}
+
 	imprimirGringo(){
 		alert ( this.mes + "/" + this.dia +"/" + this.anio);
 
@@ -90,8 +92,6 @@ class Fecha {
 		alert ( this.dia + "/" + this.mes +"/" + this.anio);
 
 	}
-
-
 
 }
 
