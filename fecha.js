@@ -81,6 +81,15 @@ class Fecha {
 	adquirirFecha(){
 		return this.dia + "/" + this.mes +"/" + this.anio + "   y: " + anioBisiestoImprimir(this.anio);
 	}
+	imprimirGringo(){
+		alert ( this.mes + "/" + this.dia +"/" + this.anio);
+
+	}
+
+	imprimirLatino(){
+		alert ( this.dia + "/" + this.mes +"/" + this.anio);
+
+	}
 
 
 
